@@ -3,7 +3,7 @@ My first app service deployment
 ## Create a reource group
 - az group create -- name chris --location eastus
 ## Create an app service plan  
-- az appservice plan create --christoappplan --resource-group chris
+- az appservice plan create --chrisappplan --resource-group chris
 ## Create a web app  
 - az webapp create -- name mrchriswebapp --resource-group chris --plan christoappplan
 ## Deploy code to the webapp  
