@@ -5,6 +5,6 @@ My first app service deployment
 ## Create an app service plan  
 - az appservice plan create --chrisappplan --resource-group chris
 ## Create a web app  
-- az webapp create -- name mrchriswebapp --resource-group chris --plan christoappplan
+- az webapp create -- name mrchriswebapp --resource-group chris --plan chrisappplan
 ## Deploy code to the webapp  
 az webapp deployment source config --name chrisappdeployment --resource-group --repo-url https://github.com/Olugbamila/sample-app-for-appservice.git --branch master --manual-integration  
